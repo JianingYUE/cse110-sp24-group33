@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <title> Home</title>
+</head>
+
+<body>
+    <header id="homepage">
+        <h1>Welcome back to your developer journal!</h1>
+    </header>
+
+    <main id="home-main">
+        <!-- Calendar -->
+        <section id="calendar-container">
+            <div class="calendar">
+                <div class="header">
+                    <div class="spacing-container"> </div>
+                    <div class="head-buttons"><button class="month-nav-buttons" type="button" title="Previous month">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <div class="month-year" id="month-year"></div>
+                        <button class="month-nav-buttons" type="button" title="Next month">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <button type="button" class="today" id="home-today" title="Jump to today">
+                        Today
+                    </button>
+                </div>
+                <div class="days">
+                    <div class="day">Mon</div>
+                    <div class="day">Tue</div>
+                    <div class="day">Wed</div>
+                    <div class="day">Thu</div>
+                    <div class="day">Fri</div>
+                    <div class="day">Sat</div>
+                    <div class="day">Sun</div>
+                </div>
+                <div class="dates" id="dates"></div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <button class="add-project" title="Add a new project">
+                <i class="fa-solid fa-plus"></i> New Project
+            </button>
+            <ul id="project-list" class="scrollable">
+            </ul>
+        </section>
+
+        <!-- Project modal -->
+        <!-- Hidden until user adds/edits a project -->
+        <section id="project-modal" class="modal hide">
+            <div class="modal-content">
+                <form class="project" id="project-form">
+                    <div class="input-group">
+                        <label for="project-name">Project Name</label>
+                        <input type="text" id="project-name" name="project-name" required>
+                    </div>
+                    <div id="project-details-input">
+                        <div class="input-group">
+                            <label for="deadline">Deadline</label>
+                            <input type="date" id="deadline" name="deadline" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="priority-level">Priority</label>
+                            <select name="priority-level" id="priority-level">
+                                <option value="" disabled selected>Select a priority level</option>
+                                <option value="High">High</option>
+                                <option value="Medium">Medium</option>
+                                <option value="Low">Low</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="button-group">
+                        <div class="sub-button-group"><button class="save" type="submit">Save</button>
+                            <button class="cancel" id="cancel-project" type="button">Cancel</button>
+                        </div>
+                        <!-- TODO: implement deletion functionality within modal -->
+                        <!-- <button class="delete" id="delete-project" type="button">Delete</button> -->
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p>Created by the <b>Digital Dr3am T3am</b></p>
+    </footer>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2ac8e23908.js" crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="scripts/main.index.js" type="module"></script>
+</body>
+
+</html>

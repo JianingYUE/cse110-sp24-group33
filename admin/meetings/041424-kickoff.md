@@ -2,13 +2,13 @@
 
 **Date:** April 14, 2024
 
-**Time:** 5-6 PM
+**Time:** 5-6:30 PM
 
 **Location:** CSE Basement
 
-**Attendees:** [List of attendees]
+**Attendees:** Kailey, Anna, Johnny, Sid, Kabir, Hartej, Piao, Ryan, Jackson
 
-**Absent:** [List of absences]
+**Absent:** None
 
 ## Agenda Items:
 
@@ -62,29 +62,29 @@
   - Focus on finding mutually acceptable solutions that prioritize the team's goals
 
 ### Team Roles
-- Designer?
-- Developer, Ryandeep Shelopal
-- Developer, Anna Lee
-- Developer, Piao Xie
-- Developer, Jianing Yue
-- Developer, Kabir Shergill
-- Developer, Jackson Yang
-- Developer, Hartej Singh
-- Planner, Siddharth Mundra
+- **Kailey Wong**: Lead
+- **Ryandeep Shelopal**: Developer
+- **Anna Lee**: Developer
+- **Piao Xie**: Developer
+- **Jianing (Johnny) Yue**: Developer
+- **Kabir Shergill**: Designer
+- **Jackson Yang**: Developer
+- **Hartej Singh**: Developer
+- **Siddharth Mundra**: Planner
 
 ### GitHub Organization & Repository
 - [Repository Link](https://github.com/cse110-sp24-group33/cse110-sp24-group33)
 - Usernames
   - Kailey: @kaileywong
-  - Ryan:
-  - Anna:
-  - Piao:
-  - Johnny:
-  - Kabir:
-  - Jackson:
-  - Hartej:
-  - Siddharth:
-- Previous Experience
+  - Ryan: @rdshelopal
+  - Anna: @annamlee
+  - Piao: @PiaoX
+  - Johnny: @JianingYUE
+  - Kabir: @fighterkabir
+  - Jackson: @JacksonYangUCSD
+  - Hartej: @hartejsin
+  - Sid: @SiddharthMundra
+- Previous Experience: not much, mostly 15L
 - Guidelines
   - Working on separate branches
   - Keeping the repository organized
@@ -98,14 +98,9 @@
 - Team Video
 
 ## Action Items:
-- 
-
-## Decisions Made:
-- 
-
-## For Future Discussion:
-
-- 
+- Sid will edit and upload the team video
+- Everyone will fill out their bio for the team page
+- We will upload branding materials (logo, color scheme, fonts, etc.)
 
 ## Notes:
-
+None
